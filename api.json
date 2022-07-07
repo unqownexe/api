@@ -1,7 +1,8 @@
 {
     "version": 1.0,
     "changeLog": [
-        "Bir efsanenin doğuşu"
+        "[+] Bir efsanenin doğuşu",
+        "[-] Say bye to InstaFly"
     ],
     "updateLink": "https://github.com"
 }
