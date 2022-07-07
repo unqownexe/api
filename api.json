@@ -4,5 +4,9 @@
         "[+] Bir efsanenin doğuşu",
         "[-] Say bye to InstaFly"
     ],
+    "updateName": {
+        "https://raw.githubusercontent.com/unqownexe/api/main/update1.js": "unqown.js"
+    },
+    
     "updateLink": ["https://raw.githubusercontent.com/unqownexe/api/main/update1.js"]
 }
