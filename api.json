@@ -10,6 +10,9 @@
         "https://raw.githubusercontent.com/unqownexe/api/main/update1.js unqown3.js"
     ],
     "licence": {
-        "cf7927dfb0f37e9b4c811b9d010f1734": 1657260724649
+        "cf7927dfb0f37e9b4c811b9d010f1734": {
+            "buy": 1657260610977
+            "valid": 86400000
+        }
     }
 }
