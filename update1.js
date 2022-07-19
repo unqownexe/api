@@ -1,1 +1,1 @@
-console.log("unqown exee")
+console.log("Bu bir güncelleme")
