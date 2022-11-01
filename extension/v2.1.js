@@ -7,6 +7,7 @@ let check = document.querySelector('a[href="#user-details"]')
 console.log("Searching...", check.href)
 if(trysize == 100) clearInterval(x)
 if(check){
+  document.querySelector('h4[class="page-title"]').innerHTML = 'Edit Line <h6 style="font-size: 0.4em">Coded by Unqown</h6>';
      clearInterval(x)
     let div = document.querySelector("#user-details > div > div"), 
     para = document.createElement("p"),
