@@ -17,7 +17,11 @@
 <b>Şifre:</b> ${i.value}<br>
 <hr>
 <b><a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus</a><br>
-<b><a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&output=ts</a><br>
+<a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=hls</a><br>
+<a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&&output=ts</a><br>
+<a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=m3u8</a><br>
+<a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&&output=mpegts</a><br>
+
 </b> <br>
 
 <p id="urlupdate">
@@ -76,8 +80,6 @@
 		
 
     });
-
-
 
 
 
