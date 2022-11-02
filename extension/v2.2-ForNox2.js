@@ -18,12 +18,16 @@
 <hr>
 <b>
 <a href="http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=hls">hls</a><br>
+http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=hls
 <hr>
 <a href="http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&&output=ts">ts</a><br>
+http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=ts
 <hr>
 <a href="http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=m3u8">m3u8</a><br>
+http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=m3u8
 <hr>
 <a href="http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&&output=mpegts">mpegts</a><br>
+http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&?output=mpegts
 <hr>
 </b> <br>
 
