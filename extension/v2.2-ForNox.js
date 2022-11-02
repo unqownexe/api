@@ -56,8 +56,29 @@
 					e.textContent = `[${t}] ${e.textContent}]`
 				})
 			
+        trysize = 0;
+        let xw = setInterval(function() {
+            100 == trysize && clearInterval(x);
+            let e = document.querySelector('table[id="credits-cost"]');
+            
+                clearInterval(xw);
+                
+                    let a = document.createElement("textarea");
+                    a.id = "addnot", a.style = "visibility: hidden; height: 1px; width: 1px", l.appendChild(a), l.prepend(a);
+                    //let c = !0;
+                        document.querySelector("#urlupdate").addEventListener("click", function() {
+                        username = document.querySelector("#username"), localStorage.removeItem(username.value), alert("✅")
+                    })
+                
+            
+        });
 			}
-		});
+		
+
+    });
+
+
+
 
 
 
