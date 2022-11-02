@@ -16,9 +16,10 @@
 <b>Kullanıcı Adı:</b> ${r.value}<br>
 <b>Şifre:</b> ${i.value}<br>
 <hr>
-<b><a href="#">http://${n}:80/playlist/${r.value}/${i.value}/m3u_plus</a><br>
-<a href="#">http://${n}:80/playlist/${r.value}/${i.value}/m3u_plus?output=hls</a>
+<b><a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus</a><br>
+<b><a href="#">http://${n}:80/get.php?username=${r.value}&password=${i.value}&type=m3u_plus&output=ts</a><br>
 </b> <br>
+
 <p id="urlupdate">
 <b>URL G\xfcncelle<b>
 </p>
