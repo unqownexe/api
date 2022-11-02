@@ -55,17 +55,7 @@
 				}), document.querySelectorAll("#datatable-review > tbody > tr > td.sorting_1").forEach((e, t) => {
 					e.textContent = `[${t}] ${e.textContent}]`
 				})
-				let o = document.querySelector("#selectall"),
-					s = document.querySelector("#disableall");
-			 o.addEventListener("click", function() {
-					document.querySelectorAll("tr > td > input").forEach((e, t) => {
-						e.checked || e.click()
-					})
-				}), s.addEventListener("click", function() {
-					document.querySelectorAll("tr > td > input").forEach((e, t) => {
-						e.checked && e.click()
-					})
-				})
+			
 			}
 		});
 
